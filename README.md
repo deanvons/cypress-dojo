@@ -1,6 +1,4 @@
-# Cypress Testing Requirements
-
-These Cypress E2E tests will cover the simplified login/logout flow:
+# Cypress Dojo
 
 ### 1. Test that the user can log in with valid credentials:
 - Input valid username (`admin`) and password (`password123`) into the form.
