@@ -21,7 +21,7 @@ npm -D install cypress
 Add this to your npm scripts in package.json
 ```json
 "e2e-test-app":"cypress open",
-"2e2-test-cli":"cypress run"
+"e2e-test-cli":"cypress run"
 ```
 Run this command to run the tests
 To see results in Cypress app
