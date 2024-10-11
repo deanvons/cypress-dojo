@@ -28,6 +28,21 @@ To see results in Cypress app
 ```bash
 npm run e2e-test-app 
 ```
+Once the Cypress Desktop opens in the desktop..
+1. Select E2E Testing (adds config files)
+2. Select continue
+3. Select Chrome
+4. Select Scaffold Example Specs -> click ok
+5. Close the Cypress App
+6. Delete the folders in the Cypress/e2e folder
+7. Add a file called login.cy.js
+
+Write your tests in this file then rerun 
+
+To see results in Cypress app run this again
+```bash
+npm run e2e-test-app 
+```
 Or to see results in terminal
 ```bash
 npm run e2e-test-cli 
