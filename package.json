@@ -1,0 +1,16 @@
+{
+  "name": "cypress-dojo",
+  "version": "1.0.0",
+  "description": "This is a simple Website that you can practice setting up and writing 2e2 tests",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e-test-app":"cypress open",
+"e2e-test-cli":"cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
