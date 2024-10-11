@@ -8,7 +8,7 @@ Fork or clone your own copy.
 
 Setup Cypress for 2e2 testing
 
-Install Cypree (desktop app and cli)
+Install Cypress (desktop app and cli)
 ```bash
 npm -D install cypress
 ```
