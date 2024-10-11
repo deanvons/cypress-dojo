@@ -6,6 +6,11 @@ This is a simple Website that you can practice setting up and writing 2e2 tests
 
 Fork or clone your own copy.
 
+Initialise npm
+```bash
+npm init
+```
+
 Setup Cypress for 2e2 testing
 
 Install Cypress (desktop app and cli)
@@ -16,10 +21,25 @@ npm -D install cypress
 Add this to your npm scripts in package.json
 ```json
 "e2e-test-app":"cypress open",
-"2e2-test-cli":"cypress run"
+"e2e-test-cli":"cypress run"
 ```
 Run this command to run the tests
 To see results in Cypress app
+```bash
+npm run e2e-test-app 
+```
+Once the Cypress Desktop opens in the desktop..
+1. Select E2E Testing (adds config files)
+2. Select continue
+3. Select Chrome
+4. Select Scaffold Example Specs -> click ok
+5. Close the Cypress App
+6. Delete the folders in the Cypress/e2e folder
+7. Add a file called login.cy.js
+
+Write your tests in this file then rerun 
+
+To see results in Cypress app run this again
 ```bash
 npm run e2e-test-app 
 ```
