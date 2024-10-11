@@ -1,3 +1,4 @@
+// update this to be the same url you get when running live server NB!!
 const url = "http://127.0.0.1:5501/"
 
 describe('Login and Logout functionality', () => {
