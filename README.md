@@ -6,6 +6,11 @@ This is a simple Website that you can practice setting up and writing 2e2 tests
 
 Fork or clone your own copy.
 
+Initialise npm
+```bash
+npm init
+```
+
 Setup Cypress for 2e2 testing
 
 Install Cypress (desktop app and cli)
